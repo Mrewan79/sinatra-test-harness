@@ -1,6 +1,6 @@
-require 'sinatra'
 require 'rubygems'
 require 'bundler/setup'
+require 'sinatra'
 
 class SinatraTestHarness < Sinatra::Base
   get '/' do
